@@ -31,7 +31,7 @@ jobs:
       run: bundle install
 
     - name: Jekyll build
-      run: jekyll build -d ../_site
+      run: jekyll build
 
     - name: Build And Deploy
       id: builddeploy
